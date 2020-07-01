@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+color = Faker::Color.color_name
+sushi = Faker::Food.sushi
+price = rand(3..15)
