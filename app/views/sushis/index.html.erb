@@ -1,0 +1,11 @@
+<h1>Welcome to Nicky's Sushis</h1>
+
+Take a look at our menu!
+
+<ul>
+<% @sushis.each do |sushi| %>
+    <li><%= link_to sushi.full_name, sushi_path(sushi.id) %> - $<%= sushi.price %></li>
+<% end %>
+</ul>
+
+<%= render "nav" %>
