@@ -1,0 +1,5 @@
+<ul>
+<% @sushis.each do |sushi| %>
+    <li><%= link_to sushi.full_name, sushi_path(sushi.id) %></li>
+<% end %>
+</ul>

@@ -12,3 +12,6 @@
     price = rand(3..15)
     Sushi.create(color: color, name: name, price: price)
 end
+
+puts "Hello from the seed file"
+puts "Hi again"
