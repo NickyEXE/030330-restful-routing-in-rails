@@ -1,0 +1,8 @@
+<h1>Here's all of our Sushis</h1>
+<ul>
+<% @sushis.each do |sushi| %>
+  <li>
+    <%= sushi.full_name %>
+  </li>
+<% end %>
+</ul>
